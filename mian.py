@@ -49,6 +49,7 @@ plt.title('Sarsa on {}'.format('Cliff Walking'))
 plt.show()
 
  # 5步Sarsa运行程序
+from n_step_Sarsa import nstep_Sarsa
 np.random.seed(0)
 n_step = 5  # 5步Sarsa算法
 alpha = 0.1
