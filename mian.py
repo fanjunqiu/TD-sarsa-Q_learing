@@ -2,14 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm  # tqdm是显示循环进度条的库
 from env  import  CliffWalkingEnv
+ncol = 12
+nrow = 4
+env = CliffWalkingEnv(ncol, nrow)
+
 
 #单步Sarsa运行程序
 # from sarsa import Sarsa
-# ncol = 12
-# nrow = 4
-# env = CliffWalkingEnv(ncol, nrow)
 # np.random.seed(0)
-# 单步Sarsa程序
+
 # epsilon = 0.1
 # alpha = 0.1
 # gamma = 0.9
